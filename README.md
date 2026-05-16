@@ -88,3 +88,62 @@ f0f0001 Second Github Assignment- new addition
 <img width="940" height="508" alt="image" src="https://github.com/user-attachments/assets/1d221014-e8cb-4131-b872-e861c3fab0bc" />
 
 
+Assignment Q#3
+================
+
+## Git Branching Commands Used
+
+### 1. Check existing branches
+```bash
+git branch
+
+Displays all local branches in the repository.
+The * symbol shows the currently active branch.
+
+2. Create and switch to a new branch
+git checkout -b feature-update
+
+Creates a new branch named feature-update and switches to it immediately.
+
+3. Stage all changes
+git add .
+
+Adds all modified and new files to the staging area.
+
+4. Commit changes
+git commit -m "Third Github Assignment - branching"
+
+Saves the staged changes with a commit message.
+
+5. Switch back to master branch
+git checkout master
+
+Moves from the current branch to the master branch.
+
+6. Merge feature branch into master
+git merge feature-update
+
+Merges changes from the feature-update branch into the master branch.
+
+7. Delete merged branch
+git branch -d feature-update
+
+Deletes the branch safely after it has been merged.
+
+8. Create another branch
+git checkout -b dummy-branch
+
+Creates and switches to a new branch named dummy-branch.
+
+9. Force delete branch
+git branch -D dummy-branch
+
+Force deletes the branch even if it has not been merged.
+
+<img width="940" height="508" alt="image" src="https://github.com/user-attachments/assets/dcdc0405-5044-4ab6-806c-2d265b734538" />
+<img width="940" height="200" alt="image" src="https://github.com/user-attachments/assets/1688766a-5d47-4fe8-97e9-24992832958d" />
+
+
+
+
+
