@@ -143,6 +143,65 @@ Force deletes the branch even if it has not been merged.
 <img width="940" height="508" alt="image" src="https://github.com/user-attachments/assets/dcdc0405-5044-4ab6-806c-2d265b734538" />
 <img width="940" height="200" alt="image" src="https://github.com/user-attachments/assets/1688766a-5d47-4fe8-97e9-24992832958d" />
 
+ Assignment Q#4
+ ==============
+# Git Commands Used in This Assignment
+
+## 1. Save Current Changes Temporarily
+```bash
+git stash
+Saves uncommitted changes temporarily without committing them.
+2. View Stashed Changes
+git stash list
+Displays all saved stashes.
+3. Check Modified Files
+git status
+Shows modified, staged, and untracked files.
+4. Add Files to Staging Area
+git add .
+Adds all modified files to the staging area.
+5. Commit Changes
+git commit -m "Commit Message"
+Creates a new commit with a message.
+
+Example:
+
+git commit -m "Fourth assignment final commit"
+
+<img width="940" height="280" alt="image" src="https://github.com/user-attachments/assets/f008962e-dfd1-40db-a71c-a7afb1327cb3" />
+
+6. View Commit History
+git log --oneline
+Displays commit history in short format.
+7. Undo Last Commit but Keep Changes
+git reset --soft HEAD~1
+Removes the latest commit while keeping changes staged.
+
+<img width="940" height="396" alt="image" src="https://github.com/user-attachments/assets/aca3485c-2720-4cda-8736-39ac08d8239a" />
+
+8. Revert a Commit
+git revert <commit-id>
+Creates a new commit that reverses changes from a previous commit.
+
+<img width="940" height="405" alt="image" src="https://github.com/user-attachments/assets/9e465cbd-c74f-47e9-8649-c108192dff10" />
+<img width="940" height="265" alt="image" src="https://github.com/user-attachments/assets/d9d2689b-c7aa-4316-a1ab-013db025768b" />
+<img width="940" height="439" alt="image" src="https://github.com/user-attachments/assets/335e0cfa-9a0c-44a6-befe-9b69c2cdd89f" />
+
+
+
+
+Example:
+
+git revert 6df0350
+Summary of Git Concepts Practiced
+Git Stash
+Git Add
+Git Commit
+Git Reset
+Git Revert
+Viewing Git Logs
+Managing Staged and Unstaged Changes
+
 
 
 
